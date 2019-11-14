@@ -204,7 +204,7 @@ const fieldComponents = {
   data: ({ job }) => {
     return (
       <Highlight className="json">
-        {JSON.stringify(job.data, null, 2)}
+        {({buffer, ...rest} = job.data) => JSON.stringify(rest, null, 2)}
       </Highlight>
     )
   },
