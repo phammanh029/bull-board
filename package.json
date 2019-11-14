@@ -1,5 +1,5 @@
 {
-  "name": "bull-board",
+  "name": "bull-board-img",
   "description": "Bull queue UI for inspecting jobs",
   "keywords": [
     "bull",
@@ -8,14 +8,14 @@
   ],
   "main": "index.js",
   "private": false,
-  "version": "0.5.0",
+  "version": "0.5.2",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vcapretz/bull-board.git"
+    "url": "https://github.com/phammanh029/bull-board.git"
   },
   "bugs": {
-    "url": "https://github.com/vcapretz/bull-board/issues"
+    "url": "https://github.com/phammanh029/bull-board/issues"
   },
   "scripts": {
     "prepublishOnly": "rm -rf ./build && yarn build",
